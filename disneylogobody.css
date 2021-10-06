@@ -1,0 +1,38 @@
+body {
+    height: 90vh;
+    width: 90vw;
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .circle {
+    background: white;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    align-self: center;
+}
+
+.circleleft {
+    position: relative;
+    top: -40px;
+    left: -20px;
+    background: white;
+    border-radius: 36% 64% 40% 60%;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+.circleright {
+    position: relative;
+    top: -40px;
+    left: -148px;
+    background: white;
+    border-radius: 64% 36% 60% 40%;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
